@@ -11,6 +11,18 @@ body {
 }
 
 /* common style stars */
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+
+  outline: 1px solid tomato;
+}
+
+
+
 .link{
     text-decoration: none;
 }
@@ -18,11 +30,6 @@ body {
     list-style: none;
     margin: 0;
     padding: 0;
-}
-
-/* Delite */
-.container {
-  outline: 2px solid tomato;
 }
 
 
