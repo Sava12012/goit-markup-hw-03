@@ -264,8 +264,11 @@ color: #757575;
 }
 
 /* Footer */
-footer {
+.footer {
   background-color: #2F303A;
+}
+.footer-container{
+  padding-top: 60px;
 }
 
 .footer .logo {
@@ -274,7 +277,6 @@ footer {
   line-height: 1.19;
   letter-spacing: 0.03em;
   text-decoration: none;
-
   color: #f5f4fa;
 }
 
@@ -302,4 +304,16 @@ footer {
 .contact:hover,
 .contact:focus {
   color: #2196f3;
+}
+
+.footer-address{
+  padding-top: 20px;
+  padding-bottom: 60px;
+}
+.footer-address-title{
+  padding-bottom: 9px;
+}
+.footer-list-item{
+  display: block;
+  padding-bottom: 9px;
 }
