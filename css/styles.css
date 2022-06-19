@@ -81,6 +81,9 @@ margin-right: 93px;
 }
 
 .header-link {
+  display: block;
+padding-top: 32px;
+padding-bottom: 32px;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
