@@ -20,6 +20,12 @@ body {
     padding: 0;
 }
 
+/* Delite */
+.container {
+  outline: 2px solid tomato;
+}
+
+
 /* Reset */
 h1,
 h2,
@@ -52,7 +58,7 @@ p{
 }
 
 .header-logo{
-  margin-right: 93px;
+
 
 }
 
