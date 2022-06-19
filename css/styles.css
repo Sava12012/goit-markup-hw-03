@@ -92,6 +92,10 @@ color: #212121;
   margin-left: auto;
 }
 
+.header-group-mail{
+  margin-right: 50px;
+}
+
 .header-contact{
 font-weight: 500;
 font-size: 14px;
