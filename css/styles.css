@@ -65,8 +65,7 @@ p{
 }
 
 .header-logo{
-
-
+margin-right: 93px;
 }
 
 .span{
@@ -77,6 +76,10 @@ p{
   display: flex;
 }
 
+.header-item:not(:last-child){
+  margin-right: 50px;
+}
+
 .header-link {
 font-weight: 500;
 font-size: 14px;
@@ -84,6 +87,11 @@ line-height: 1.14;
 letter-spacing: 0.02em;
 color: #212121;
 }
+
+.header-group{
+  margin-left: auto;
+}
+
 .header-contact{
 font-weight: 500;
 font-size: 14px;
