@@ -131,6 +131,9 @@ color: #212121;
  .hero{
   background-color: #2F303A;
   text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+
 
  }
  .hero-h1{
@@ -141,7 +144,7 @@ line-height: 1.36;
 text-align: center;
 letter-spacing: 0.06em;
 color: #FFFFFF;
-padding-top: 200px;
+
  }
 .hero .button{
   font-family: "roboto", sans-serif;
@@ -153,7 +156,8 @@ padding-top: 200px;
   background-color: #2196f3;
   cursor: pointer;
   margin-top: 30px;
-  margin-bottom: 200px;
+  width: 200px;
+  height: 50px;
 }
 
 .hero .button:hover,
@@ -162,6 +166,10 @@ padding-top: 200px;
 }
 
 /* Peculiarities section */
+
+.peculiarities{
+  padding-top: 94px;
+}
 
 .about-h3{
 font-family:'Roboto'; sans-serif;
@@ -183,7 +191,6 @@ margin-top: 10px;
 
 .about-container{
   display: flex;
-  margin-top: 94px;
 }
 .list .about-item{
   margin-right: 30px;
@@ -196,6 +203,11 @@ margin-right: 0;
 
 /* Services section */
 
+.services{
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .services-h2{
 font-family: 'Roboto'; sans-serif;
 font-weight: 700;
@@ -204,7 +216,6 @@ line-height: 1.16;
 text-align: center;
 letter-spacing: 0.03em;
 color: #212121;
-padding-top: 94px;
 }
 
 .services-list{
@@ -219,13 +230,13 @@ padding-top: 94px;
 /* Team section */
 .team{
   background-color: #F5F4FA;
-  margin-top: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .team-list{
-  padding-top: 50px;
+  margin-top: 50px;
   display: flex;
-  padding-bottom: 94px;
 }
 
 .team-item{
