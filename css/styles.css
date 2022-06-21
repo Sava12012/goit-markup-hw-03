@@ -250,6 +250,10 @@ color: #212121;
   margin-right: 0px;
 }
 
+.team-card{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 .team-h3{
 font-family: 'Roboto'; sans-serif;
 font-weight: 500;
@@ -258,8 +262,8 @@ line-height: 1.18;
 letter-spacing: 0.03em;
 color: #212121;
 text-align: center;
-padding-top: 30px;
 }
+
 .team-p{
 font-family: 'Roboto'; sans-serif;
 font-size: 16px;
@@ -267,8 +271,7 @@ line-height: 1.18;
 letter-spacing: 0.03em;
 color: #757575;
 text-align: center;
-padding-top: 10px;
-padding-bottom: 30px;
+margin-top: 10px;
 }
 
 
@@ -361,8 +364,9 @@ color: #757575;
 .footer {
   background-color: #2F303A;
 }
-.footer-container{
+.footer{
   padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .footer .logo {
@@ -401,13 +405,12 @@ color: #757575;
 }
 
 .footer-address{
-  padding-top: 20px;
-  padding-bottom: 60px;
+  margin-top: 20px;
 }
 .footer-address-title{
-  padding-bottom: 9px;
+  margin-bottom: 9px;
 }
 .footer-list-item{
   display: block;
-  padding-bottom: 9px;
+  margin-bottom: 9px;
 }
