@@ -277,14 +277,17 @@ margin-top: 10px;
 
 /* Portfolio */
 
+.portfolio-section{
+  padding-top: 94px;
+}
 
-/* Button */
+.portfolio-section2{
+  padding-bottom: 94px;
+}
 
 .portfolio-list{
   display: flex;
   justify-content: center;
-  margin-top: 94px;
-
 }
 
 .button-item{
@@ -297,6 +300,7 @@ margin-top: 10px;
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
+  padding: 6px 22px;
 
   color: #212121;
   background-color: #f5f4fa;
@@ -332,7 +336,6 @@ color: #757575;
 
 .pictures-list{
   margin-top: 50px;
-  padding-bottom: 94px;
   display: flex;
   flex-wrap: wrap;
 }
