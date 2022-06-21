@@ -45,6 +45,12 @@ p{
 }
 
 /* Heder section */
+.header{
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #ECECEC;
+}
+
 .header-container{
   display: flex;
   align-items: center;
@@ -124,9 +130,6 @@ color: #212121;
 
  .hero{
   background-color: #2F303A;
-  border-top-width: 1px;
-  border-top-style: solid;
-  border-top-color: #ECECEC;
   text-align: center;
 
  }
