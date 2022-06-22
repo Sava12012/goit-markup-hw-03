@@ -277,17 +277,14 @@ margin-top: 10px;
 
 /* Portfolio */
 
-.portfolio-section{
-  padding-top: 94px;
-}
-
-.portfolio-section2{
-  padding-bottom: 94px;
-}
-
 .portfolio-list{
   display: flex;
   justify-content: center;
+}
+
+.portfolio-section{
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .button-item{
@@ -301,6 +298,8 @@ margin-top: 10px;
   line-height: 1.62;
   letter-spacing: 0.03em;
   padding: 6px 22px;
+  border-radius: 4px;
+
 
   color: #212121;
   background-color: #f5f4fa;
